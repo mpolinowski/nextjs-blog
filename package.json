@@ -1,0 +1,33 @@
+{
+  "name": "next-blog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "jsxBracketSameLine": true,
+    "requirePragma": true,
+    "insertPragma": true
+  },
+  "dependencies": {
+    "@mdx-js/loader": "^1.6.22",
+    "@next/mdx": "^10.1.3",
+    "gray-matter": "^4.0.3",
+    "next": "10.1.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.41",
+    "@types/react": "^17.0.3",
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.4"
+  }
+}

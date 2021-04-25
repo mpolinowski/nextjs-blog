@@ -1,0 +1,19 @@
+.navigation {
+  color: #00d681;
+  background-color: #222;
+  max-width: 800px;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  top: -3ch;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 7px;
+  font-size: 2.5rem;
+  padding: 1ch 4ch;;
+}
+
+.navigation a:hover,
+.navigation a:focus {
+  color: blueviolet;
+}
